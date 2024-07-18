@@ -7,12 +7,36 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      white: '#FAFAFA',
+      purple: '#855FB1',
+      lightpurple: '#D9B8FF',
+      teal: '#4D96A9',
+      black: '#28283D',
+      gray: '#87879D',
+      lightblue: '#8FE3F9'
+    },
+    fontFamily: {
+      'redhat': 'Red Hat'
+    },
+    fontSize: {
+      headingxl: '64px',
+      headingm: '40px',
+      body: '18px',
+      overline: '16px',
+    },
+    lineHeight: {
+      headingxl: '64px',
+      headingm: '44px',
+      body: '26px',
+      overline: '26px',
+    },
+    letterSpacing: {
+      overline: '4px'
+    },
+
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+
     },
   },
   plugins: [],
